@@ -4,7 +4,7 @@
 #
 # To install your odoo development environement type:
 #
-# wget -O- https://raw.githubusercontent.com/odoo/odoo/8.0/odoo.py | python
+# wget -O- https://raw.githubusercontent.com/	odoo/odoo/8.0/odoo.py | python
 #
 # The setup_* subcommands used to boostrap odoo are defined here inline and may
 # only depends on the python 2.7 stdlib
@@ -22,8 +22,8 @@ GIT_HOOKS_PRE_PUSH = """
 #!/usr/bin/env python2
 import re
 import sys
-if re.search('github.com[:/]odoo/odoo.git$', sys.argv[2]):
-    print "Pushing to /odoo/odoo.git is forbidden, please push to odoo-dev, use --no-verify to override"
+if re.search('github.com[:/]buguelos/odoo.git$', sys.argv[2]):
+    print "Pushing to /buguelos/odoo.git is forbidden, please push to odoo-dev, use --no-verify to override"
     sys.exit(1)
 """
 
@@ -78,8 +78,8 @@ def cmd_setup_git():
         open(pre_push_path,'w').write(GIT_HOOKS_PRE_PUSH.strip())
         os.chmod(pre_push_path, 0755)
         # setup odoo remote
-        run('git','config','remote.odoo.url','https://github.com/odoo/odoo.git')
-        run('git','config','remote.odoo.pushurl','git@github.com:odoo/odoo.git')
+        run('git','config','remote.odoo.url','https://github.com/buguelos/odoo.git')
+        run('git','config','remote.odoo.pushurl','git@github.com:buguelos/odoo.git')
         run('git','config','--add','remote.odoo.fetch','dummy')
         run('git','config','--unset-all','remote.odoo.fetch')
         run('git','config','--add','remote.odoo.fetch','+refs/heads/*:refs/remotes/odoo/*')
