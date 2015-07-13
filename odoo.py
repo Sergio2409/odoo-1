@@ -23,7 +23,7 @@ GIT_HOOKS_PRE_PUSH = """
 import re
 import sys
 if re.search('github.com[:/]buguelos/odoo.git$', sys.argv[2]):
-    print "Pushing to /buguelos/odoo.git is forbidden, please push to odoo-dev, use --no-verify to override"
+    print "Pushing to /buguelos/odoo.git is forbidden, please push to buguelos, use --no-verify to override"
     sys.exit(1)
 """
 
@@ -84,8 +84,8 @@ def cmd_setup_git():
         run('git','config','--unset-all','remote.odoo.fetch')
         run('git','config','--add','remote.odoo.fetch','+refs/heads/*:refs/remotes/odoo/*')
         # setup odoo-dev remote
-        run('git','config','remote.odoo-dev.url','https://github.com/odoo-dev/odoo.git')
-        run('git','config','remote.odoo-dev.pushurl','git@github.com:odoo-dev/odoo.git')
+        run('git','config','remote.odoo-dev.url','https://github.com/buguelos/odoo.git')
+        run('git','config','remote.odoo-dev.pushurl','git@github.com:buguelos/odoo.git')
         run('git','remote','update')
         # setup 8.0 branch
         run('git','config','branch.8.0.remote','odoo')
@@ -98,10 +98,10 @@ def cmd_setup_git_dev():
     git_dir = git_locate()
     if git_dir:
         # setup odoo-dev remote
-        run('git','config','--add','remote.odoo-dev.fetch','dummy')
-        run('git','config','--unset-all','remote.odoo-dev.fetch')
-        run('git','config','--add','remote.odoo-dev.fetch','+refs/heads/*:refs/remotes/odoo-dev/*')
-        run('git','config','--add','remote.odoo-dev.fetch','+refs/pull/*:refs/remotes/odoo-dev/pull/*')
+        run('git','config','--add','remote.buguelos.fetch','dummy')
+        run('git','config','--unset-all','remote.buguelos.fetch')
+        run('git','config','--add','remote.buguelos.fetch','+refs/heads/*:refs/remotes/buguelos/*')
+        run('git','config','--add','remote.buguelos.fetch','+refs/pull/*:refs/remotes/buguelos/pull/*')
         run('git','remote','update')
 
 def cmd_setup_git_review():
