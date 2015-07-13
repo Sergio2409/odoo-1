@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<openerp>
+    <data>
+     	<record model="ir.ui.view" id="view_yowsup_gateway_form">
+            <field name="name">yowsup.gateway.form</field>
+            <field name="model">yowsup.gateway</field>
+            <field name="type">form</field>
+            <field name="arch" type="xml">
+            	<form string="yowsup_gateway" version="7.0">
+            		<header>
+                    	<button name="test_gateway" string="Test Message" type="object" class="oe_highlight" confirm="Are you sure you want to do this?"/>
+                    	<button name="test_exists" string="Test Credentials are valid " type="object" class="oe_highlight" confirm="Are you sure you want to do this?"/>
+                    	<button name="test_sync" string="Test Sync Contacts" type="object" class="oe_highlight" confirm="Are you sure you want to do this?"/>
+                    	<button name="test_listen" string="Test Listen Message" type="object" class="oe_highlight" confirm="Are you sure you want to do this?"/>
+                    	<button name="request_code" string="Request Code" type="object" class="oe_highlight" confirm="Are you sure you want to do this?"/>
+                    	<button name="register" string="Register Phone" type="object" class="oe_highlight" confirm="Are you sure you want to do this?"/>
+                    </header>
+                    <group>
+                    	<field name="name"/>
+                    </group>
+                    <group>
+	            		<group>
+		            		<field name="cc"/>
+		            		<field name="phone"/>
+		            		<field name="idphone"/>
+		            		<field name="password"/>  
+		            		
+	            		</group> 
+	            		<group>
+	            			<field name="request_code"/>   
+		            		<field name="register_code"/> 
+	            		</group>   
+            		</group>  
+            		<group>
+	            		<group>
+	            			<field name="test_to"/>
+		            		<field name="test_message"/>  
+	            		</group> 
+	            		<group>
+	            			<field name="autoack"/>
+		            		<field name="keepalive"/>  	
+	            		</group>  
+            		</group>  		
+            	</form>
+            	
+            </field>
+       	</record>
+       	<record model="ir.ui.view" id="view_yowsup_gateway_tree">
+            <field name="name">yowsup.gateway.tree</field>
+            <field name="model">yowsup.gateway</field>
+            <field name="type">tree</field>
+            <field name="arch" type="xml">
+            	<tree string="yowsup_gateway">
+            		<field name="name"/>
+            		<field name="cc"/>
+            		<field name="phone"/>
+            	</tree>
+            </field>
+       	</record>
+       	
+    	<record model="ir.actions.act_window" id="action_yowsup_gateway" >
+            <field name="name">Yowsup gateway</field>
+            <field name="res_model">yowsup.gateway</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+       	</record>
+       	
+    	<menuitem name="Yousup Gateway" id="menu_yowsup" groups="base.group_whatsapp_user" parent="base.menu_config"/>
+    		<menuitem name="Gateway" id="menu_yowsup_gateway" parent="menu_yowsup" action="action_yowsup_gateway"/>
+    		
+    </data>
+</openerp>
+
+

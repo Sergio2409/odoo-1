@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+<!-- Create Menu From view -->
+
+        <record id="view_yowsup_partner_send_form" model="ir.ui.view">
+            <field name="name">yowsup.partner.form</field>
+            <field name="model">yowsup.partner.send</field>
+            <field name="type">form</field>
+            <field name="arch" type="xml">
+              <form string="yowsup_partner_send" version="7.0">
+                    <group string="Gateway" cols="2" colspan="2">
+                        <field name="gateway"/>
+                    </group>
+                    <group string="Whatsapp send">
+	                    <group cols="2" colspan="2">
+		                    <field name="mobile_to"/>
+		                    
+						</group>
+						<group cols="2" colspan="2">
+							<button name="whatsapp_sync" string="Contact Validate" type="object"/>
+						</group>
+					</group>
+					<notebook>
+	                    <page string="Message">
+					    	<field name="message" nolabel="1"/>
+	                   	</page>
+	                   	
+					</notebook>
+					<footer>
+                        <button name="whatsapp_send" string="Send Whatsapp" type="object" class="oe_highlight"/>
+                        or
+                        <button special="cancel" string="Cancel" class="oe_link"/>
+                    </footer>
+                   
+             	</form>
+            </field>
+        </record>
+        
+        <record model="ir.ui.view" id="view_yowsup_partner_send_tree">
+            <field name="name">yowsup.partner.send.tree</field>
+            <field name="model">yowsup.partner.send</field>
+            <field name="type">tree</field>
+            <field name="arch" type="xml">
+            	<tree string="yowsup_partner_send">
+            		<field name="id"/>
+            		<field name="gateway"/>
+            		<field name="mobile_to"/>
+            		<field name="message"/>
+            	</tree>
+            </field>
+       	</record>
+       	
+       	<record model="ir.actions.act_window" id="action_history" >
+            <field name="name">Yowsup partner send</field>
+            <field name="res_model">yowsup.partner.send</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+       	</record>
+       	<menuitem name="History Messages" id="menu_yowsup_history" parent="menu_yowsup" action="action_history"/>
+      
+       	
+		<act_window name="Send an Whatsapp"
+            res_model="yowsup.partner.send"
+            src_model="res.partner"
+            view_mode="form"
+            target="new"
+            key2="client_action_multi"
+            id="action_yowsup_partner_send"/>
+            
+    </data>
+</openerp>

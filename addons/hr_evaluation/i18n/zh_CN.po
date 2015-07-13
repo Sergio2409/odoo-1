@@ -1,0 +1,1605 @@
+# Chinese (Simplified) translation for openobject-addons
+# Copyright (c) 2014 Rosetta Contributors and Canonical Ltd 2014
+# This file is distributed under the same license as the openobject-addons package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: openobject-addons\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2015-01-21 14:07+0000\n"
+"PO-Revision-Date: 2015-05-24 03:43+0000\n"
+"Last-Translator: 卓忆科技 <zhanghao@jointd.com>\n"
+"Language-Team: Chinese (Simplified) <zh_CN@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2015-05-25 06:06+0000\n"
+"X-Generator: Launchpad (build 17514)\n"
+
+#. module: hr_evaluation
+#: code:addons/hr_evaluation/hr_evaluation.py:84
+#, python-format
+msgid ""
+"\n"
+"Date: %(date)s\n"
+"\n"
+"Dear %(employee_name)s,\n"
+"\n"
+"I am doing an evaluation regarding %(eval_name)s.\n"
+"\n"
+"Kindly submit your response.\n"
+"\n"
+"\n"
+"Thanks,\n"
+"--\n"
+"%(user_signature)s\n"
+"\n"
+"        "
+msgstr ""
+"\n"
+"日期: %(date)s\n"
+"\n"
+"您好 %(employee_name)s \n"
+"\n"
+"我需要做一个关于 %(eval_name)s 的考评，请您回复答案。\n"
+"\n"
+"谢谢\n"
+"\n"
+"%(user_signature)s\n"
+"\n"
+"        "
+
+#. module: hr_evaluation
+#: field:hr.evaluation.report,nbr:0
+msgid "# of Requests"
+msgstr "# 要求"
+
+#. module: hr_evaluation
+#: view:hr_evaluation.plan.phase:hr_evaluation.view_hr_evaluation_plan_phase_form
+msgid "(date)s: Current Date"
+msgstr "(date)s: 当前日期"
+
+#. module: hr_evaluation
+#: view:hr_evaluation.plan.phase:hr_evaluation.view_hr_evaluation_plan_phase_form
+msgid "(employee_name)s: Partner name"
+msgstr "(employee_name)s: 合作伙伴姓名"
+
+#. module: hr_evaluation
+#: view:hr_evaluation.plan.phase:hr_evaluation.view_hr_evaluation_plan_phase_form
+msgid "(eval_name)s:Appraisal Name"
+msgstr "(eval_name)s:评估名称"
+
+#. module: hr_evaluation
+#: view:hr_evaluation.plan.phase:hr_evaluation.view_hr_evaluation_plan_phase_form
+msgid "(user_signature)s: User name"
+msgstr "(user_signature)s:用户名"
+
+#. module: hr_evaluation
+#: model:survey.page,description:hr_evaluation.opinion_1
+msgid ""
+"<h2>At the supervisor's appraisal date</h2>\n"
+"<p>His direct reports will be invited through Odoo to express a feedback on "
+"their supervisor's leadership and to give their opinion about their own "
+"engagement and effectiveness, the continuous improvement and openness in "
+"action in thecompany...</p>\n"
+"<p>The employees will send back their anonymous answers to Odoo. The data "
+"will be handled by the HR manager and a brief summary of the data will be "
+"sent to the concerned supervisor, to his team and to the supervisor's "
+"supervisor.</p>\n"
+"<p>The appraiser should rate the employee's major work accomplishments and "
+"performance according to the metric provided below\n"
+"</p><ol>\n"
+"<li>Significantly exceeds standards and expectations required of the "
+"position</li>\n"
+"<li>Exceeds standards and expectations</li>\n"
+"<li>Meet standards and expectations</li>\n"
+"<li>Did not meet standards and expectations</li>\n"
+"<li>Significantly below standards and expectations</li>\n"
+"</ol>"
+msgstr ""
+"<h2>在管理人员评估日</h2>\n"
+"<p>他的直接报告将会通过Odoo回馈关于管理层的承诺和效果的意见，在本企业持续改进并在行动上公开透明。。。</p>\n"
+"<p>员工会在Odoo内匿名提交他们的回答。 数据由人力资源主管负责，数据的摘要会发送给相关的主管，,给他的团队及其上司的上司。</p>\n"
+"<p>评估人会按照下面的指标评估员工的主要工作的成绩和效率\n"
+"</p><ol>\n"
+"<li>明显超过其岗位的标准及预期</li>\n"
+"<li>超过标准和预期</li>\n"
+"<li>满足标准和预期</li>\n"
+"<li>低于标准和预期</li>\n"
+"<li>明显低于标准和预期</li>\n"
+"</ol>"
+
+#. module: hr_evaluation
+#: model:survey.page,description:hr_evaluation.appraisal_1
+msgid ""
+"<h2>Overall Purpose Of Employee Appraisal</h2>\n"
+"<ul><li>To initiate a clear and open communication of performance "
+"expectations\n"
+"</li><li>To assist employees in their professional growth, through the "
+"identification of strengths and opportunities for\n"
+"development</li></ul>\n"
+"<h2>At the outset of the appraisal time period</h2>\n"
+"<ul><li>It is the joint responsibility of the employee and the supervisor "
+"(appraiser) to establish a feasible work plan for the\n"
+"coming year, including major employee responsibilities and corresponding "
+"benchmarks against which results will be\n"
+"evaluated.\n"
+"</li><li>Critical or key elements of performance and professional "
+"development needs (if any), should also be noted at this time</li></ul>\n"
+"<h2>At the conclusion of the appraisal time period</h2>\n"
+"<ul><li>The employee will be responsible for completing a draft of the "
+"Appraisal Form as a tool for self-appraisal and a starting\n"
+"point for the supervisor’s evaluation. The employee can add examples of "
+"achievements for each criterion.\n"
+"Once the form had been filled, the employee send it to his supervisor.\n"
+"</li><li>It is the primary responsibility of the supervisor to gather the "
+"necessary input from the appropriate sources of feedback\n"
+"(internal and/or external customers, peers). In case of collaboration with "
+"Odoo SA Belgium, the supervisor must\n"
+"receive completed evaluation form from the employee's Belgian project "
+"manager.\n"
+"</li><li>The supervisor synthesizes and integrates all input into the "
+"completed appraisal. He motivates his evaluation in the ad\n"
+"hoc fields.\n"
+"</li><li>The employee may choose to offer comments or explanation regarding "
+"the completed review.\n"
+"</li><li>The supervisor send the form to the HR department in India and in "
+"Belgium</li></ul>"
+msgstr ""
+"<h2>员工评估概况</h2>\n"
+"<ul><li>开始一个预期中清晰开放的交流\n"
+"</li><li>来帮助员工提高专业技能，通过发现强项和发展机会</li></ul>\n"
+"<h2>在评估开始时</h2>\n"
+"<ul><li>对即将到来的一年制定一个切实可行的工作计划是员工和其领导（评价人）的共同责任， 评估结果主要包括员工的责任和相应的标准。\n"
+"</li><li>效率和专业发展需要（若有的话）的重要和关键因素,也会被同时记录</li></ul>\n"
+"<h2>评估收尾阶段</h2>\n"
+"<ul><li>员工需要完成一份评估表作为自我评定的工具和主管评定的起点。\n"
+"员工可以为每项评定标准增加案例。\n"
+"当表格填完后,员工将它发送给上司.\n"
+"</li><li>管理者的主要责任是在恰当来源的回馈中收集必填资料\n"
+"(内部 和/或 外部客户, 同事)。在与比利时Odoo SA 合作的情况下，管理者必须\n"
+"从员工比利时的项目经理接收完整的评估。\n"
+"</li><li>管理员综合所有输入的内容到完成的评定中. 将他的评价写在ad\n"
+"hoc区域.\n"
+"</li><li>员工可以对已完成的评估进行评论和说明。\n"
+"</li><li>在印度和比利时管理者发送表单给人事部门</li></ul>"
+
+#. module: hr_evaluation
+#: model:ir.actions.act_window,help:hr_evaluation.open_view_hr_evaluation_tree
+msgid ""
+"<p class=\"oe_view_nocontent_create\">\n"
+"                Click to create a new appraisal.\n"
+"              </p><p>\n"
+"                Each employee may be assigned an Appraisal Plan. Such a "
+"plan\n"
+"                defines the frequency and the way you manage your periodic\n"
+"                personnel evaluation. You will be able to define steps and\n"
+"                attach interviews to each step. Odoo manages all kinds of\n"
+"                evaluations: bottom-up, top-down, self-evaluation and final\n"
+"                evaluation by the manager.\n"
+"              </p>\n"
+"            "
+msgstr ""
+"<p class=\"oe_view_nocontent_create\">\n"
+"                单击新建一个评价。\n"
+"              </p><p>\n"
+"                每个员工都被分配了评价计划。 这个计划\n"
+"                定义了进行个人评价的频率和方法。\n"
+"                你能定义评价步骤及其面谈。\n"
+"                Odoo能管理所有类型的评价：\n"
+"                从下到上、从 上到下、自我评价\n"
+"                及管理人员的最终评价。\n"
+"              </p>\n"
+"            "
+
+#. module: hr_evaluation
+#: model:ir.actions.act_window,help:hr_evaluation.action_hr_evaluation_interview_tree
+msgid ""
+"<p class=\"oe_view_nocontent_create\">\n"
+"                Click to create a new interview request related to a "
+"personal evaluation.\n"
+"              </p><p>\n"
+"                Interview requests are usually generated automatically by\n"
+"                Odoo according to an employee's appraisal plan. Each user\n"
+"                receives automatic emails and requests to evaluate their\n"
+"                colleagues periodically.\n"
+"              </p>\n"
+"            "
+msgstr ""
+"<p class=\"oe_view_nocontent_create\">\n"
+"               单击创建一个新的个人面谈请求。\n"
+"              </p><p>\n"
+"                面谈请求通常是Odoo根据员工的评价计划自动生成的。\n"
+"                每个用户定期自动接收电子邮件, \n"
+"                并要求对他们的同事\n"
+"                进行评价。\n"
+"              </p>\n"
+"            "
+
+#. module: hr_evaluation
+#: model:ir.actions.act_window,help:hr_evaluation.action_evaluation_plans_installer
+msgid ""
+"<p class=\"oe_view_nocontent_create\">\n"
+"                Click to define a new appraisal plan.\n"
+"              </p><p>\n"
+"                You can define appraisal plans (ex: first interview after 6\n"
+"                months, then every year). Then, each employee can be linked "
+"to\n"
+"                an appraisal plan so that Odoo can automatically generate\n"
+"                interview requests to managers and/or subordinates.\n"
+"              </p>\n"
+"            "
+msgstr ""
+"<p class=\"oe_view_nocontent_create\">\n"
+"                单击定义一个评价计划。\n"
+"              </p><p>\n"
+"                您能定义评价计划 ((例如：6个月后首次面谈，\n"
+"                然后每年一次). 然后每个员工能关联到一个评价计划，\n"
+"                这样Odoo能自动生成一个面谈要求\n"
+"                给管理人员和下属。\n"
+"              </p>\n"
+"            "
+
+#. module: hr_evaluation
+#: model:survey.page,description:hr_evaluation.appraisal_2
+#: model:survey.page,description:hr_evaluation.opinion_2
+#: model:survey.survey,description:hr_evaluation.appraisal_form
+#: model:survey.survey,description:hr_evaluation.opinion_form
+#: model:survey.survey,thank_you_message:hr_evaluation.appraisal_form
+#: model:survey.survey,thank_you_message:hr_evaluation.opinion_form
+msgid "<p> </p>"
+msgstr "<p> </p>"
+
+#. module: hr_evaluation
+#: model:survey.page,description:hr_evaluation.appraisal_5
+msgid "<p></p>"
+msgstr "<p></p>"
+
+#. module: hr_evaluation
+#: model:survey.page,description:hr_evaluation.appraisal_4
+msgid ""
+"<p>Identify professional, performance, or project objectives you recommend "
+"for employee’s continued career development\n"
+"over the coming year.</p>"
+msgstr "<p>对员工明年的专业规划，绩效，或项目目标以保持其职业持续发展 ，给出您的建议 </p>"
+
+#. module: hr_evaluation
+#: model:survey.page,description:hr_evaluation.appraisal_3
+msgid ""
+"<p>The appraiser should rate the employee’s major work accomplishments and "
+"performance according to the metric provided\n"
+"below:</p><ol>\n"
+"<li> Significantly exceeds standards and expectations required of the "
+"position\n"
+"</li><li> Exceeds standards and expectations\n"
+"</li><li> Meet standards and expectations\n"
+"</li><li> Did not meet standards and expectations\n"
+"</li><li> Significantly below standards and expectations</li></ol>"
+msgstr ""
+"<p>评估人会评估员工的主要工作的成绩和完成指标的效率\n"
+"在下面:</p><ol>\n"
+"<li> 在岗位上明显超过标准和预期\n"
+"</li><li> 超过标准和预期\n"
+"</li><li> 达到标准和预期\n"
+"</li><li> 低于标准和预期\n"
+"</li><li> 明显低于标准和预期</li></ol>"
+
+#. module: hr_evaluation
+#: model:survey.label,value:hr_evaluation.arow_3_1_1
+msgid "Ability to cope with multidisciplinarity of team"
+msgstr "具有处理多学科团队的能力"
+
+#. module: hr_evaluation
+#: model:survey.label,value:hr_evaluation.arow_3_1_6
+msgid "Ability to follow and complete work as instructed"
+msgstr "具有完成工作指示的能力"
+
+#. module: hr_evaluation
+#: model:survey.label,value:hr_evaluation.arow_3_2_5
+msgid "Ability to manage planning resources, risks, budgets and deadlines"
+msgstr "具备资源规划、风险、预算、截至日期的管理能力"
+
+#. module: hr_evaluation
+#: field:hr_evaluation.plan.phase,action:0
+msgid "Action"
+msgstr "操作"
+
+#. module: hr_evaluation
+#: field:hr_evaluation.evaluation,note_action:0
+msgid "Action Plan"
+msgstr "行动计划"
+
+#. module: hr_evaluation
+#: view:hr_evaluation.evaluation:hr_evaluation.view_hr_evaluation_form
+msgid "Action Plan..."
+msgstr "行动计划..."
+
+#. module: hr_evaluation
+#: view:hr_evaluation.plan.phase:hr_evaluation.view_hr_evaluation_plan_phase_form
+msgid "Action to Perform"
+msgstr "要执行的操作"
+
+#. module: hr_evaluation
+#: model:survey.label,value:hr_evaluation.oprow_2_6_1
+msgid ""
+"Actions by Executive management show genuine interest in the well-being of "
+"employees"
+msgstr "通过行政管理了解让员工产生幸福感的兴趣所在"
+
+#. module: hr_evaluation
+#: field:hr_evaluation.plan,active:0
+msgid "Active"
+msgstr "有效"
+
+#. module: hr_evaluation
+#: model:survey.label,value:hr_evaluation.arow_3_1_13
+msgid ""
+"Adaptability: Ability to adapt oneself to organizational changes while "
+"keeping efficiency"
+msgstr "适应性：适应组织的变化而保持效率的能力"
+
+#. module: hr_evaluation
+#: model:survey.question,question:hr_evaluation.appraisal_2_3
+msgid "Additional Comments"
+msgstr "附加注释"
+
+#. module: hr_evaluation
+#: model:survey.question,question:hr_evaluation.opinion_2_7
+msgid "Additional comments"
+msgstr "附加注释"
+
+#. module: hr_evaluation
+#: field:hr_evaluation.plan.phase,send_answer_employee:0
+#: field:hr_evaluation.plan.phase,send_answer_manager:0
+msgid "All Answers"
+msgstr "所有答案"
+
+#. module: hr_evaluation
+#: model:survey.label,value:hr_evaluation.arow_3_1_11
+msgid "Analytical and synthetic mind"
+msgstr "综合分析思维"
+
+#. module: hr_evaluation
+#: field:hr_evaluation.plan.phase,send_anonymous_employee:0
+#: field:hr_evaluation.plan.phase,send_anonymous_manager:0
+msgid "Anonymous Summary"
+msgstr "匿名摘要"
+
+#. module: hr_evaluation
+#: view:hr.evaluation.interview:hr_evaluation.view_hr_evaluation_interview_form
+#: view:hr.evaluation.interview:hr_evaluation.view_hr_evaluation_interview_tree
+msgid "Answer Survey"
+msgstr "填写问卷"
+
+#. module: hr_evaluation
+#: view:hr.evaluation.interview:hr_evaluation.view_hr_evaluation_interview_form
+#: view:hr_evaluation.evaluation:hr_evaluation.view_hr_evaluation_form
+#: view:hr_evaluation.evaluation:hr_evaluation.view_hr_evaluation_tree
+#: model:ir.actions.act_window,name:hr_evaluation.open_view_hr_evaluation_tree
+#: model:ir.ui.menu,name:hr_evaluation.menu_eval_hr
+msgid "Appraisal"
+msgstr "评估"
+
+#. module: hr_evaluation
+#: view:hr.evaluation.report:hr_evaluation.view_evaluation_report_graph
+#: view:hr.evaluation.report:hr_evaluation.view_evaluation_report_search
+#: model:ir.actions.act_window,name:hr_evaluation.action_evaluation_report_all
+#: model:ir.ui.menu,name:hr_evaluation.menu_evaluation_report_all
+msgid "Appraisal Analysis"
+msgstr "评估分析"
+
+#. module: hr_evaluation
+#: field:hr_evaluation.evaluation,date:0
+msgid "Appraisal Deadline"
+msgstr "评估截止时间"
+
+#. module: hr_evaluation
+#: field:hr.evaluation.interview,survey_id:0
+#: field:hr_evaluation.plan.phase,survey_id:0
+msgid "Appraisal Form"
+msgstr "考评表"
+
+#. module: hr_evaluation
+#: view:hr_evaluation.evaluation:hr_evaluation.view_hr_evaluation_form
+#: field:hr_evaluation.evaluation,survey_request_ids:0
+msgid "Appraisal Forms"
+msgstr "评估表"
+
+#. module: hr_evaluation
+#: model:ir.model,name:hr_evaluation.model_hr_evaluation_interview
+msgid "Appraisal Interview"
+msgstr "评估面谈"
+
+#. module: hr_evaluation
+#: field:hr.employee,appraisal_count:0
+msgid "Appraisal Interviews"
+msgstr "评估面谈"
+
+#. module: hr_evaluation
+#: field:hr.evaluation.interview,phase_id:0
+msgid "Appraisal Phase"
+msgstr "评估阶段"
+
+#. module: hr_evaluation
+#: view:hr_evaluation.plan:hr_evaluation.view_hr_evaluation_plan_form
+#: field:hr_evaluation.plan,phase_ids:0
+msgid "Appraisal Phases"
+msgstr "评估阶段"
+
+#. module: hr_evaluation
+#: field:hr.employee,evaluation_plan_id:0
+#: field:hr.evaluation.interview,evaluation_id:0
+#: view:hr_evaluation.plan:hr_evaluation.view_hr_evaluation_plan_form
+#: view:hr_evaluation.plan:hr_evaluation.view_hr_evaluation_plan_search
+#: view:hr_evaluation.plan:hr_evaluation.view_hr_evaluation_plan_tree
+#: field:hr_evaluation.plan,name:0
+#: field:hr_evaluation.plan.phase,plan_id:0
+#: model:ir.model,name:hr_evaluation.model_hr_evaluation_plan
+msgid "Appraisal Plan"
+msgstr "评估计划"
+
+#. module: hr_evaluation
+#: model:ir.model,name:hr_evaluation.model_hr_evaluation_plan_phase
+msgid "Appraisal Plan Phase"
+msgstr "评估计划阶段"
+
+#. module: hr_evaluation
+#: view:hr_evaluation.plan.phase:hr_evaluation.view_hr_evaluation_plan_phase_form
+#: view:hr_evaluation.plan.phase:hr_evaluation.view_hr_evaluation_plan_phase_tree
+msgid "Appraisal Plan Phases"
+msgstr "评估计划阶段"
+
+#. module: hr_evaluation
+#: view:hr_evaluation.plan:hr_evaluation.view_hr_evaluation_plan_search
+#: model:ir.actions.act_window,name:hr_evaluation.open_view_hr_evaluation_plan_tree
+#: model:ir.ui.menu,name:hr_evaluation.menu_open_view_hr_evaluation_plan_tree
+msgid "Appraisal Plans"
+msgstr "评估计划"
+
+#. module: hr_evaluation
+#: model:survey.page,title:hr_evaluation.opinion_1
+msgid "Appraisal Process"
+msgstr "评估步骤"
+
+#. module: hr_evaluation
+#: model:ir.actions.act_window,name:hr_evaluation.evaluation_reminders
+msgid "Appraisal Reminders"
+msgstr "评估提醒"
+
+#. module: hr_evaluation
+#: field:hr_evaluation.evaluation,note_summary:0
+msgid "Appraisal Summary"
+msgstr "评估结果"
+
+#. module: hr_evaluation
+#: view:hr_evaluation.evaluation:hr_evaluation.view_hr_evaluation_form
+msgid "Appraisal Summary..."
+msgstr "考核总结..."
+
+#. module: hr_evaluation
+#: model:survey.question,question:hr_evaluation.appraisal_1_3
+msgid "Appraisal for Period"
+msgstr "评估周期"
+
+#. module: hr_evaluation
+#: view:hr_evaluation.evaluation:hr_evaluation.evaluation_search
+msgid "Appraisal that are in Plan In Progress state"
+msgstr "在计划执行阶段的评估"
+
+#. module: hr_evaluation
+#: view:hr_evaluation.evaluation:hr_evaluation.evaluation_search
+msgid "Appraisal that are in waiting appreciation state"
+msgstr "在等待鉴定状态的评估"
+
+#. module: hr_evaluation
+#: view:hr.employee:hr_evaluation.hr_hr_employee_view_form
+#: model:ir.ui.menu,name:hr_evaluation.menu_open_view_hr_evaluation_tree
+msgid "Appraisals"
+msgstr "评估"
+
+#. module: hr_evaluation
+#: view:hr_evaluation.evaluation:hr_evaluation.evaluation_search
+msgid "Appraisals Month"
+msgstr "评估月"
+
+#. module: hr_evaluation
+#: view:hr_evaluation.evaluation:hr_evaluation.evaluation_search
+msgid "Appraisals by Month"
+msgstr "评估按月"
+
+#. module: hr_evaluation
+#: model:survey.question,question:hr_evaluation.appraisal_1_5
+msgid "Appraiser"
+msgstr "评估人"
+
+#. module: hr_evaluation
+#: view:hr.evaluation.report:hr_evaluation.view_evaluation_report_search
+#: field:hr_evaluation.evaluation,rating:0
+msgid "Appreciation"
+msgstr "考评"
+
+#. module: hr_evaluation
+#: selection:hr_evaluation.plan.phase,action:0
+msgid "Bottom-Up Appraisal Requests"
+msgstr "自下而上的评估申请"
+
+#. module: hr_evaluation
+#: view:hr_evaluation.evaluation:hr_evaluation.view_hr_evaluation_form
+msgid "Cancel Appraisal"
+msgstr "取消评估"
+
+#. module: hr_evaluation
+#: view:hr.evaluation.interview:hr_evaluation.view_hr_evaluation_interview_form
+msgid "Cancel Survey"
+msgstr "取消调查"
+
+#. module: hr_evaluation
+#: selection:hr.evaluation.interview,state:0
+#: selection:hr.evaluation.report,state:0
+#: selection:hr_evaluation.evaluation,state:0
+msgid "Cancelled"
+msgstr "已取消"
+
+#. module: hr_evaluation
+#: help:hr_evaluation.plan.phase,mail_feature:0
+msgid ""
+"Check this box if you want to send mail to employees coming under this phase"
+msgstr "如果您想在这阶段发送电子邮件给员工，勾选"
+
+#. module: hr_evaluation
+#: help:hr_evaluation.plan.phase,wait:0
+msgid ""
+"Check this box if you want to wait that all preceding phases are finished "
+"before launching this phase."
+msgstr "如果您要等前面所有阶段都完成才开启这阶段，勾选"
+
+#. module: hr_evaluation
+#: field:hr.evaluation.report,closed:0
+msgid "Close Date"
+msgstr "结束日期"
+
+#. module: hr_evaluation
+#: model:survey.label,value:hr_evaluation.arow_3_1_9
+msgid ""
+"Communication skills (written & verbally): clearness, concision, exactitude"
+msgstr "沟通技巧（书面和口头）：清晰，简洁，正确"
+
+#. module: hr_evaluation
+#: view:hr_evaluation.plan:hr_evaluation.view_hr_evaluation_plan_search
+#: field:hr_evaluation.plan,company_id:0
+#: field:hr_evaluation.plan.phase,company_id:0
+msgid "Company"
+msgstr "公司"
+
+#. module: hr_evaluation
+#: model:survey.label,value:hr_evaluation.oprow_2_6_3
+msgid ""
+"Compared to similar jobs in other companies where I could work, my total "
+"compensation..."
+msgstr "我在其他公司做相类似的工作，我的薪酬总额…"
+
+#. module: hr_evaluation
+#: model:survey.label,value:hr_evaluation.arow_3_1_3
+msgid ""
+"Compliance to internal rules and processes (timesheets completion, etc.)"
+msgstr "服从内部的规定和流程（例如完成计工单等）"
+
+#. module: hr_evaluation
+#: model:survey.question,question:hr_evaluation.opinion_2_4
+msgid "Continuous Improvement"
+msgstr "持续改进"
+
+#. module: hr_evaluation
+#: field:hr.evaluation.report,create_date:0
+msgid "Create Date"
+msgstr "创建日期"
+
+#. module: hr_evaluation
+#: field:hr.evaluation.interview,create_uid:0
+#: field:hr_evaluation.evaluation,create_uid:0
+#: field:hr_evaluation.plan,create_uid:0
+#: field:hr_evaluation.plan.phase,create_uid:0
+msgid "Created by"
+msgstr "创建者"
+
+#. module: hr_evaluation
+#: field:hr.evaluation.interview,create_date:0
+#: field:hr_evaluation.evaluation,create_date:0
+#: field:hr_evaluation.plan,create_date:0
+#: field:hr_evaluation.plan.phase,create_date:0
+msgid "Created on"
+msgstr "创建于"
+
+#. module: hr_evaluation
+#: view:hr.evaluation.report:hr_evaluation.view_evaluation_report_search
+msgid "Creation Month"
+msgstr "创建月份"
+
+#. module: hr_evaluation
+#: model:survey.label,value:hr_evaluation.arow_3_1_14
+msgid "Creativity and forward looking aptitude"
+msgstr "创新力及前瞻视野"
+
+#. module: hr_evaluation
+#: model:survey.label,value:hr_evaluation.arow_3_1_8
+msgid "Customer commitment"
+msgstr "顾客承诺"
+
+#. module: hr_evaluation
+#: model:survey.question,question:hr_evaluation.opinion_1_2
+msgid "Date"
+msgstr "日期"
+
+#. module: hr_evaluation
+#: model:survey.question,question:hr_evaluation.appraisal_1_4
+msgid "Date of review"
+msgstr "评估日期"
+
+#. module: hr_evaluation
+#: help:hr.evaluation.interview,message_last_post:0
+#: help:hr_evaluation.evaluation,message_last_post:0
+msgid "Date of the last message posted on the record."
+msgstr "最新信息记录的日期。"
+
+#. module: hr_evaluation
+#: field:hr.evaluation.interview,deadline:0
+#: field:hr.evaluation.report,deadline:0
+msgid "Deadline"
+msgstr "截止日期"
+
+#. module: hr_evaluation
+#: view:hr.evaluation.interview:hr_evaluation.view_hr_evaluation_interview_tree
+msgid "Deadline Date"
+msgstr "截止日期"
+
+#. module: hr_evaluation
+#: model:survey.label,value:hr_evaluation.arow_3_1_7
+msgid "Decision making"
+msgstr "决策"
+
+#. module: hr_evaluation
+#: field:hr.evaluation.report,delay_date:0
+msgid "Delay to Start"
+msgstr "推延开启"
+
+#. module: hr_evaluation
+#: model:survey.label,value:hr_evaluation.arow_3_2_2
+msgid "Delegation: Ability to efficiently assign tasks to other people"
+msgstr "授权：能高效的将任务分配给他人"
+
+#. module: hr_evaluation
+#: model:survey.label,value:hr_evaluation.oprow_2_2_1
+msgid "Demonstrates genuine concern for me as a person"
+msgstr "像对待人一样关心我"
+
+#. module: hr_evaluation
+#: selection:hr.evaluation.report,rating:0
+msgid "Did not meet expectations"
+msgstr "没有达到预期"
+
+#. module: hr_evaluation
+#: selection:hr_evaluation.evaluation,rating:0
+msgid "Do not meet expectations"
+msgstr "没有达到预期"
+
+#. module: hr_evaluation
+#: view:hr.evaluation.interview:hr_evaluation.view_hr_evaluation_interview_form
+#: view:hr.evaluation.interview:hr_evaluation.view_hr_evaluation_interview_tree
+#: selection:hr.evaluation.interview,state:0
+#: view:hr.evaluation.report:hr_evaluation.view_evaluation_report_search
+#: selection:hr.evaluation.report,state:0
+#: view:hr_evaluation.evaluation:hr_evaluation.view_hr_evaluation_form
+#: selection:hr_evaluation.evaluation,state:0
+msgid "Done"
+msgstr "完成"
+
+#. module: hr_evaluation
+#: selection:hr.evaluation.interview,state:0
+#: selection:hr.evaluation.report,state:0
+msgid "Draft"
+msgstr "草稿"
+
+#. module: hr_evaluation
+#: model:survey.question,question:hr_evaluation.opinion_2_3
+msgid "Effectiveness"
+msgstr "效力"
+
+#. module: hr_evaluation
+#: field:hr_evaluation.plan.phase,mail_body:0
+msgid "Email"
+msgstr "电子邮件"
+
+#. module: hr_evaluation
+#: view:hr.evaluation.report:hr_evaluation.view_evaluation_report_search
+#: field:hr.evaluation.report,employee_id:0
+#: view:hr_evaluation.evaluation:hr_evaluation.evaluation_search
+#: field:hr_evaluation.evaluation,employee_id:0
+#: model:ir.model,name:hr_evaluation.model_hr_employee
+msgid "Employee"
+msgstr "员工"
+
+#. module: hr_evaluation
+#: model:ir.model,name:hr_evaluation.model_hr_evaluation_evaluation
+msgid "Employee Appraisal"
+msgstr "员工评估"
+
+#. module: hr_evaluation
+#: model:survey.page,title:hr_evaluation.appraisal_1
+#: model:survey.survey,title:hr_evaluation.appraisal_form
+msgid "Employee Appraisal Form"
+msgstr "员工评估单"
+
+#. module: hr_evaluation
+#: model:survey.page,title:hr_evaluation.appraisal_5
+msgid "Employee Comments"
+msgstr "员工评价"
+
+#. module: hr_evaluation
+#: model:survey.survey,title:hr_evaluation.opinion_form
+msgid "Employee Opinion Form"
+msgstr "员工意见单"
+
+#. module: hr_evaluation
+#: model:survey.page,title:hr_evaluation.appraisal_3
+msgid "Employee Performance in Key Areas"
+msgstr "员工在关键领域的绩效"
+
+#. module: hr_evaluation
+#: field:hr.evaluation.interview,user_to_review_id:0
+msgid "Employee to evaluate"
+msgstr "员工自评"
+
+#. module: hr_evaluation
+#: field:hr_evaluation.evaluation,date_close:0
+msgid "Ending Date"
+msgstr "结束日期"
+
+#. module: hr_evaluation
+#: model:survey.question,question:hr_evaluation.opinion_2_1
+msgid "Engagement"
+msgstr "承诺"
+
+#. module: hr_evaluation
+#: model:survey.label,value:hr_evaluation.arow_3_1_2
+msgid "Enthusiasm & implication toward projects/assignments"
+msgstr "对项目/任务积极主动"
+
+#. module: hr_evaluation
+#: model:survey.page,title:hr_evaluation.opinion_2
+msgid "Evaluation"
+msgstr "考评"
+
+#. module: hr_evaluation
+#: model:ir.model,name:hr_evaluation.model_hr_evaluation_report
+msgid "Evaluations Statistics"
+msgstr "考评统计"
+
+#. module: hr_evaluation
+#: selection:hr.evaluation.report,rating:0
+#: selection:hr_evaluation.evaluation,rating:0
+msgid "Exceeds expectations"
+msgstr "超过预期"
+
+#. module: hr_evaluation
+#: view:hr.evaluation.report:hr_evaluation.view_evaluation_report_search
+msgid "Extended Filters..."
+msgstr "增加筛选条件"
+
+#. module: hr_evaluation
+#: selection:hr_evaluation.plan.phase,action:0
+msgid "Final Interview"
+msgstr "最后面谈"
+
+#. module: hr_evaluation
+#: view:hr.evaluation.report:hr_evaluation.view_evaluation_report_search
+#: selection:hr.evaluation.report,state:0
+msgid "Final Validation"
+msgstr "最终确认"
+
+#. module: hr_evaluation
+#: view:hr.evaluation.report:hr_evaluation.view_evaluation_report_search
+msgid "Final Validation Evaluations"
+msgstr "最终确认评估"
+
+#. module: hr_evaluation
+#: field:hr_evaluation.plan,month_first:0
+msgid "First Appraisal in (months)"
+msgstr "初次评估月份"
+
+#. module: hr_evaluation
+#: field:hr.evaluation.interview,message_follower_ids:0
+#: field:hr_evaluation.evaluation,message_follower_ids:0
+msgid "Followers"
+msgstr "关注者"
+
+#. module: hr_evaluation
+#: view:hr_evaluation.plan.phase:hr_evaluation.view_hr_evaluation_plan_phase_form
+msgid "General"
+msgstr "一般"
+
+#. module: hr_evaluation
+#: view:hr.evaluation.interview:hr_evaluation.view_hr_evaluation_interview_search
+#: view:hr.evaluation.report:hr_evaluation.view_evaluation_report_search
+#: view:hr_evaluation.plan:hr_evaluation.view_hr_evaluation_plan_search
+msgid "Group By"
+msgstr "分组按"
+
+#. module: hr_evaluation
+#: view:hr_evaluation.evaluation:hr_evaluation.evaluation_search
+msgid "Group by..."
+msgstr "分组"
+
+#. module: hr_evaluation
+#: help:hr.evaluation.interview,message_summary:0
+#: help:hr_evaluation.evaluation,message_summary:0
+msgid ""
+"Holds the Chatter summary (number of messages, ...). This summary is "
+"directly in html format in order to be inserted in kanban views."
+msgstr "保存复杂的摘要(消息数量,……等)。为了插入到看板视图，这一摘要直接是是HTML格式。"
+
+#. module: hr_evaluation
+#: model:survey.label,value:hr_evaluation.oprow_2_1_1
+msgid "I am proud to tell others I work here"
+msgstr "我自豪地告诉别人我在这里工作"
+
+#. module: hr_evaluation
+#: model:survey.label,value:hr_evaluation.oprow_2_1_5
+msgid ""
+"I am willing to put in a great deal of effort beyond what is expected to "
+"help my workgroup succeed"
+msgstr "我会投入大量的努力希望帮助我们的工作组成功"
+
+#. module: hr_evaluation
+#: model:survey.label,value:hr_evaluation.oprow_2_2_4
+msgid "I believe the information that I get from the person I report to."
+msgstr "我相信这些信息来自我的个人报告。"
+
+#. module: hr_evaluation
+#: model:survey.label,value:hr_evaluation.oprow_2_2_2
+msgid ""
+"I consistently acquire new knowledge, skills or understanding through "
+"contact with my supervisor. He helps me growing my compete"
+msgstr "我通过与我的上司接触不断学习新知识，技能或共识。他帮助我提高竞争力"
+
+#. module: hr_evaluation
+#: model:survey.label,value:hr_evaluation.oprow_2_3_2
+msgid "I have enough work"
+msgstr "我的工作量足够了"
+
+#. module: hr_evaluation
+#: model:survey.label,value:hr_evaluation.oprow_2_6_2
+msgid ""
+"I have the same opportunity to succeed as others with similar experiences, "
+"performance and educational background"
+msgstr "有相关的经验，专业及教育背景，我和其他人拥有相同的成功机会"
+
+#. module: hr_evaluation
+#: model:survey.label,value:hr_evaluation.oprow_2_5_1
+msgid "I know the company's values and live them"
+msgstr "我了解公司的价值观并与它共存"
+
+#. module: hr_evaluation
+#: model:survey.label,value:hr_evaluation.oprow_2_3_3
+msgid ""
+"I mostly work on value-added tasks for the company, the products or the "
+"services"
+msgstr "我大多数的工作是为公司，产品或服务增加价值"
+
+#. module: hr_evaluation
+#: model:survey.label,value:hr_evaluation.oprow_2_6_4
+msgid "I understand the company strategy and how my workgroup supports it"
+msgstr "我了解公司的战略，以及我的工作组如何支持它"
+
+#. module: hr_evaluation
+#: model:survey.label,value:hr_evaluation.oprow_2_1_3
+msgid ""
+"I would prefer to remain with this company even if a comparable job were "
+"available in another company"
+msgstr "即使在其他公司有类似的工作我依然希望留在这个公司"
+
+#. module: hr_evaluation
+#: model:survey.label,value:hr_evaluation.oprow_2_3_1
+msgid "I'm efficient at work and my achievements are successful"
+msgstr "我的工作是高效率的并且我的业绩是成功的"
+
+#. module: hr_evaluation
+#: field:hr.evaluation.interview,id:0
+#: field:hr.evaluation.report,id:0
+#: field:hr_evaluation.evaluation,id:0
+#: field:hr_evaluation.plan,id:0
+#: field:hr_evaluation.plan.phase,id:0
+msgid "ID"
+msgstr "ID"
+
+#. module: hr_evaluation
+#: help:hr.evaluation.interview,message_unread:0
+#: help:hr_evaluation.evaluation,message_unread:0
+msgid "If checked new messages require your attention."
+msgstr "如果要求你关注新消息，勾选此项"
+
+#. module: hr_evaluation
+#: model:survey.question,comments_message:hr_evaluation.appraisal_1_1
+#: model:survey.question,comments_message:hr_evaluation.appraisal_1_2
+#: model:survey.question,comments_message:hr_evaluation.appraisal_1_3
+#: model:survey.question,comments_message:hr_evaluation.appraisal_1_4
+#: model:survey.question,comments_message:hr_evaluation.appraisal_1_5
+#: model:survey.question,comments_message:hr_evaluation.appraisal_2_1
+#: model:survey.question,comments_message:hr_evaluation.appraisal_2_2
+#: model:survey.question,comments_message:hr_evaluation.appraisal_2_3
+#: model:survey.question,comments_message:hr_evaluation.appraisal_3_1
+#: model:survey.question,comments_message:hr_evaluation.appraisal_3_2
+#: model:survey.question,comments_message:hr_evaluation.appraisal_4_1
+#: model:survey.question,comments_message:hr_evaluation.appraisal_4_2
+#: model:survey.question,comments_message:hr_evaluation.appraisal_4_3
+#: model:survey.question,comments_message:hr_evaluation.appraisal_5_1
+#: model:survey.question,comments_message:hr_evaluation.opinion_1_1
+#: model:survey.question,comments_message:hr_evaluation.opinion_1_2
+#: model:survey.question,comments_message:hr_evaluation.opinion_2_1
+#: model:survey.question,comments_message:hr_evaluation.opinion_2_2
+#: model:survey.question,comments_message:hr_evaluation.opinion_2_3
+#: model:survey.question,comments_message:hr_evaluation.opinion_2_4
+#: model:survey.question,comments_message:hr_evaluation.opinion_2_5
+#: model:survey.question,comments_message:hr_evaluation.opinion_2_6
+#: model:survey.question,comments_message:hr_evaluation.opinion_2_7
+msgid "If other, precise:"
+msgstr "其他，请说明："
+
+#. module: hr_evaluation
+#: help:hr_evaluation.evaluation,note_action:0
+msgid ""
+"If the evaluation does not meet the expectations, you can propose an action "
+"plan"
+msgstr "如果考评不符合期望值，您可以提出行动计划。"
+
+#. module: hr_evaluation
+#: view:hr.evaluation.report:hr_evaluation.view_evaluation_report_search
+msgid "In Progress"
+msgstr "进行中"
+
+#. module: hr_evaluation
+#: selection:hr.evaluation.interview,state:0
+#: view:hr_evaluation.evaluation:hr_evaluation.evaluation_search
+msgid "In progress"
+msgstr "进行中"
+
+#. module: hr_evaluation
+#: view:hr.evaluation.report:hr_evaluation.view_evaluation_report_search
+msgid "In progress Evaluations"
+msgstr "正在进行的评估"
+
+#. module: hr_evaluation
+#: model:survey.label,value:hr_evaluation.arow_3_1_5
+msgid "Initiative and self autonomy"
+msgstr "主动性和自主性"
+
+#. module: hr_evaluation
+#: view:hr_evaluation.evaluation:hr_evaluation.view_hr_evaluation_form
+msgid "Internal Notes"
+msgstr "内部备注"
+
+#. module: hr_evaluation
+#: view:hr.evaluation.interview:hr_evaluation.view_hr_evaluation_interview_form
+#: view:hr.evaluation.interview:hr_evaluation.view_hr_evaluation_interview_tree
+msgid "Interview Appraisal"
+msgstr "面谈测评"
+
+#. module: hr_evaluation
+#: view:hr.evaluation.interview:hr_evaluation.view_evaluation_calendar
+msgid "Interview Request"
+msgstr "面谈要求"
+
+#. module: hr_evaluation
+#: model:ir.actions.act_window,name:hr_evaluation.action_hr_evaluation_interview_tree
+#: model:ir.ui.menu,name:hr_evaluation.menu_open_hr_evaluation_interview_requests
+msgid "Interview Requests"
+msgstr "面谈要求"
+
+#. module: hr_evaluation
+#: view:hr.evaluation.interview:hr_evaluation.view_hr_evaluation_interview_form
+#: view:hr.evaluation.interview:hr_evaluation.view_hr_evaluation_interview_search
+#: view:hr.evaluation.interview:hr_evaluation.view_hr_evaluation_interview_tree
+#: field:hr.evaluation.interview,user_id:0
+msgid "Interviewer"
+msgstr "面谈主持"
+
+#. module: hr_evaluation
+#: model:ir.actions.act_window,name:hr_evaluation.act_hr_employee_2_hr__evaluation_interview
+msgid "Interviews"
+msgstr "面试"
+
+#. module: hr_evaluation
+#: field:hr.evaluation.interview,message_is_follower:0
+#: field:hr_evaluation.evaluation,message_is_follower:0
+msgid "Is a Follower"
+msgstr "是一个关注者"
+
+#. module: hr_evaluation
+#: field:hr.evaluation.interview,message_last_post:0
+#: field:hr_evaluation.evaluation,message_last_post:0
+msgid "Last Message Date"
+msgstr "最近的消息日期"
+
+#. module: hr_evaluation
+#: field:hr.evaluation.interview,write_uid:0
+#: field:hr_evaluation.evaluation,write_uid:0
+#: field:hr_evaluation.plan,write_uid:0
+#: field:hr_evaluation.plan.phase,write_uid:0
+msgid "Last Updated by"
+msgstr "最后更新被"
+
+#. module: hr_evaluation
+#: field:hr.evaluation.interview,write_date:0
+#: field:hr_evaluation.evaluation,write_date:0
+#: field:hr_evaluation.plan,write_date:0
+#: field:hr_evaluation.plan.phase,write_date:0
+msgid "Last Updated on"
+msgstr "最后更新在"
+
+#. module: hr_evaluation
+#: model:survey.question,question:hr_evaluation.opinion_2_2
+msgid "Leadership"
+msgstr "领导力"
+
+#. module: hr_evaluation
+#: model:survey.label,value:hr_evaluation.arow_3_2_3
+msgid ""
+"Leadership: create a challenging and motivating work environment aligned "
+"with the company's strategy"
+msgstr "领导力：创造一个与公司的战略相一致的富有挑战性和激励性的工作环境"
+
+#. module: hr_evaluation
+#: model:survey.label,value:hr_evaluation.arow_3_2_4
+msgid "Leadership: sustain subordinates in their professional growth"
+msgstr "领导力：保持下属的专业成长"
+
+#. module: hr_evaluation
+#: view:hr_evaluation.plan.phase:hr_evaluation.view_hr_evaluation_plan_phase_form
+msgid "Legend"
+msgstr "图表"
+
+#. module: hr_evaluation
+#: model:survey.label,value:hr_evaluation.oprow_2_2_3
+msgid ""
+"Listens and takes into account all ideas and do his best to put in place the "
+"best of these"
+msgstr "倾听并投入所有的想法思考并尽自己最大努力实施这些想法"
+
+#. module: hr_evaluation
+#: view:hr_evaluation.plan.phase:hr_evaluation.view_hr_evaluation_plan_phase_form
+msgid "Mail Body"
+msgstr "邮件内容"
+
+#. module: hr_evaluation
+#: view:hr_evaluation.plan.phase:hr_evaluation.view_hr_evaluation_plan_phase_form
+msgid "Mail Settings"
+msgstr "邮件设置"
+
+#. module: hr_evaluation
+#: selection:hr.evaluation.report,rating:0
+#: selection:hr_evaluation.evaluation,rating:0
+msgid "Meet expectations"
+msgstr "达到预期目标"
+
+#. module: hr_evaluation
+#: field:hr.evaluation.interview,message_ids:0
+#: field:hr_evaluation.evaluation,message_ids:0
+msgid "Messages"
+msgstr "消息"
+
+#. module: hr_evaluation
+#: help:hr.evaluation.interview,message_ids:0
+#: help:hr_evaluation.evaluation,message_ids:0
+msgid "Messages and communication history"
+msgstr "消息和通信历史"
+
+#. module: hr_evaluation
+#: model:survey.question,question:hr_evaluation.opinion_2_6
+msgid "Miscellaneous"
+msgstr "其它"
+
+#. module: hr_evaluation
+#: view:hr.evaluation.report:hr_evaluation.view_evaluation_report_search
+msgid "Month"
+msgstr "月份"
+
+#. module: hr_evaluation
+#: model:survey.label,value:hr_evaluation.oprow_2_5_2
+msgid ""
+"My best achievements have been communicated to the community, internally or "
+"to customers"
+msgstr "我最好的业绩已经传达给社区，内部或客户"
+
+#. module: hr_evaluation
+#: model:survey.label,value:hr_evaluation.oprow_2_1_2
+msgid "My job provides me with a sense of personal accomplishment"
+msgstr "我的工作给了我个人成就感"
+
+#. module: hr_evaluation
+#: model:survey.label,value:hr_evaluation.oprow_2_4_1
+msgid ""
+"My work contributes towards the continuous improvement of the company, our "
+"services or products"
+msgstr "我的工作有助于持续提高企业，我们的服务或产品"
+
+#. module: hr_evaluation
+#: model:survey.question,question:hr_evaluation.appraisal_1_1
+msgid "Name"
+msgstr "名称"
+
+#. module: hr_evaluation
+#: model:survey.question,question:hr_evaluation.opinion_1_1
+msgid "Name of your direct supervisor"
+msgstr "您顶头上司的名字"
+
+#. module: hr_evaluation
+#: selection:hr_evaluation.evaluation,state:0
+msgid "New"
+msgstr "新建"
+
+#. module: hr_evaluation
+#: field:hr.employee,evaluation_date:0
+msgid "Next Appraisal Date"
+msgstr "下一个评估日期"
+
+#. module: hr_evaluation
+#: model:survey.question,question:hr_evaluation.appraisal_2_1
+msgid "Objectives"
+msgstr "宗旨"
+
+#. module: hr_evaluation
+#: model:survey.question,question:hr_evaluation.opinion_2_5
+msgid "Openness"
+msgstr "开放性"
+
+#. module: hr_evaluation
+#: model:survey.label,value:hr_evaluation.oprow_2_4_4
+msgid ""
+"Our workgroup identifies and reduces waste of time in our activities and "
+"processes"
+msgstr "我们工作组会识别和减少我们在活动及流程中浪费的时间"
+
+#. module: hr_evaluation
+#: field:hr.evaluation.report,rating:0
+msgid "Overall Rating"
+msgstr "总评分"
+
+#. module: hr_evaluation
+#: model:survey.label,value:hr_evaluation.oprow_2_4_3
+msgid ""
+"Overall, I believe the quality of products and/or services my workgroup "
+"delivers is improving"
+msgstr "总之，我相信我的工作组改善了提供的产品的质量和服务"
+
+#. module: hr_evaluation
+#: field:hr.evaluation.report,overpass_delay:0
+msgid "Overpassed Deadline"
+msgstr "超过截止日期"
+
+#. module: hr_evaluation
+#: view:hr_evaluation.evaluation:hr_evaluation.evaluation_search
+msgid "Pending"
+msgstr "暂停"
+
+#. module: hr_evaluation
+#: model:ir.ui.menu,name:hr_evaluation.menu_eval_hr_config
+msgid "Periodic Appraisal"
+msgstr "定期评估"
+
+#. module: hr_evaluation
+#: field:hr_evaluation.plan,month_next:0
+msgid "Periodicity of Appraisal (months)"
+msgstr "评估周期（月数）"
+
+#. module: hr_evaluation
+#: model:survey.question,question:hr_evaluation.appraisal_4_2
+msgid "Personal Performance Objectives"
+msgstr "个人绩效目标"
+
+#. module: hr_evaluation
+#: field:hr_evaluation.plan.phase,name:0
+msgid "Phase"
+msgstr "阶段"
+
+#. module: hr_evaluation
+#: view:hr.evaluation.report:hr_evaluation.view_evaluation_report_search
+#: field:hr.evaluation.report,plan_id:0
+#: view:hr_evaluation.evaluation:hr_evaluation.evaluation_search
+#: field:hr_evaluation.evaluation,plan_id:0
+msgid "Plan"
+msgstr "计划"
+
+#. module: hr_evaluation
+#: selection:hr.evaluation.report,state:0
+#: selection:hr_evaluation.evaluation,state:0
+msgid "Plan In Progress"
+msgstr "计划进度"
+
+#. module: hr_evaluation
+#: model:survey.question,question:hr_evaluation.appraisal_1_2
+msgid "Position Title"
+msgstr "职位名称"
+
+#. module: hr_evaluation
+#: view:hr.evaluation.interview:hr_evaluation.view_hr_evaluation_interview_form
+#: view:hr.evaluation.interview:hr_evaluation.view_hr_evaluation_interview_tree
+msgid "Print Survey"
+msgstr "打印问卷"
+
+#. module: hr_evaluation
+#: model:survey.question,question:hr_evaluation.appraisal_4_1
+msgid "Professional Development Objectives"
+msgstr "职业发展目标"
+
+#. module: hr_evaluation
+#: model:survey.page,title:hr_evaluation.appraisal_4
+msgid "Professional Development and Performance Plan"
+msgstr "职业发展和绩效规划"
+
+#. module: hr_evaluation
+#: model:survey.question,question:hr_evaluation.appraisal_4_3
+msgid "Project Objectives"
+msgstr "项目目标"
+
+#. module: hr_evaluation
+#: model:survey.label,value:hr_evaluation.arow_3_1_12
+msgid "Promptness and attendance record"
+msgstr "准时和考勤记录"
+
+#. module: hr_evaluation
+#: view:hr_evaluation.evaluation:hr_evaluation.view_hr_evaluation_form
+msgid "Public Notes"
+msgstr "公开备注"
+
+#. module: hr_evaluation
+#: code:addons/hr_evaluation/hr_evaluation.py:83
+#, python-format
+msgid "Regarding "
+msgstr "关于 "
+
+#. module: hr_evaluation
+#: field:hr.evaluation.report,request_id:0
+msgid "Request ID"
+msgstr "要求ID"
+
+#. module: hr_evaluation
+#: view:hr_evaluation.evaluation:hr_evaluation.view_hr_evaluation_form
+msgid "Reset to Draft"
+msgstr "重置为草稿"
+
+#. module: hr_evaluation
+#: model:survey.question,question:hr_evaluation.appraisal_2_2
+msgid "Results"
+msgstr "成绩"
+
+#. module: hr_evaluation
+#: model:survey.label,value:hr_evaluation.arow_3_2_1
+msgid ""
+"Results of the bottom-up survey and mitigation actions to face technical, "
+"organizational, structural and/or relational issues"
+msgstr "面对技术的，组织的，结构的和/或关连问题的自下而上的调查和缓解措施的成绩"
+
+#. module: hr_evaluation
+#: model:ir.actions.act_window,name:hr_evaluation.action_evaluation_plans_installer
+msgid "Review Appraisal Plans"
+msgstr "复核评估计划"
+
+#. module: hr_evaluation
+#: view:hr.evaluation.interview:hr_evaluation.view_hr_evaluation_interview_search
+#: view:hr_evaluation.evaluation:hr_evaluation.evaluation_search
+msgid "Search Appraisal"
+msgstr "搜索评估"
+
+#. module: hr_evaluation
+#: selection:hr_evaluation.plan.phase,action:0
+msgid "Self Appraisal Requests"
+msgstr "自我评估申请"
+
+#. module: hr_evaluation
+#: view:hr.evaluation.interview:hr_evaluation.view_hr_evaluation_interview_form
+#: view:hr.evaluation.interview:hr_evaluation.view_hr_evaluation_interview_tree
+msgid "Send Reminder Email"
+msgstr "发送提醒邮件"
+
+#. module: hr_evaluation
+#: view:hr.evaluation.interview:hr_evaluation.view_hr_evaluation_interview_form
+#: view:hr.evaluation.interview:hr_evaluation.view_hr_evaluation_interview_tree
+msgid "Send Request"
+msgstr "发送请求"
+
+#. module: hr_evaluation
+#: help:hr_evaluation.plan.phase,send_answer_employee:0
+msgid "Send all answers to the employee"
+msgstr "发送所有答案给员工"
+
+#. module: hr_evaluation
+#: help:hr_evaluation.plan.phase,send_answer_manager:0
+msgid "Send all answers to the manager"
+msgstr "发送所有的答案给经理"
+
+#. module: hr_evaluation
+#: help:hr_evaluation.plan.phase,send_anonymous_employee:0
+msgid "Send an anonymous summary to the employee"
+msgstr "给员工发一个匿名摘要"
+
+#. module: hr_evaluation
+#: help:hr_evaluation.plan.phase,send_anonymous_manager:0
+msgid "Send an anonymous summary to the manager"
+msgstr "发送匿名摘要给经理"
+
+#. module: hr_evaluation
+#: field:hr_evaluation.plan.phase,mail_feature:0
+msgid "Send mail for this phase"
+msgstr "这阶段发送邮件"
+
+#. module: hr_evaluation
+#: view:hr_evaluation.plan.phase:hr_evaluation.view_hr_evaluation_plan_phase_form
+msgid "Send to Employees"
+msgstr "发送给员工"
+
+#. module: hr_evaluation
+#: view:hr_evaluation.plan.phase:hr_evaluation.view_hr_evaluation_plan_phase_form
+msgid "Send to Managers"
+msgstr "发给经理"
+
+#. module: hr_evaluation
+#: field:hr_evaluation.plan.phase,sequence:0
+msgid "Sequence"
+msgstr "序列"
+
+#. module: hr_evaluation
+#: selection:hr.evaluation.report,rating:0
+msgid "Significantly bellow expectations"
+msgstr "大大低于期望"
+
+#. module: hr_evaluation
+#: selection:hr_evaluation.evaluation,rating:0
+msgid "Significantly below expectations"
+msgstr "明显低于预期"
+
+#. module: hr_evaluation
+#: selection:hr.evaluation.report,rating:0
+#: selection:hr_evaluation.evaluation,rating:0
+msgid "Significantly exceeds expectations"
+msgstr "大大超过预期"
+
+#. module: hr_evaluation
+#: view:hr_evaluation.evaluation:hr_evaluation.view_hr_evaluation_form
+msgid "Start Appraisal"
+msgstr "开始评估"
+
+#. module: hr_evaluation
+#: field:hr.evaluation.interview,state:0
+msgid "State"
+msgstr "状态"
+
+#. module: hr_evaluation
+#: view:hr.evaluation.interview:hr_evaluation.view_hr_evaluation_interview_search
+#: view:hr.evaluation.report:hr_evaluation.view_evaluation_report_search
+#: field:hr.evaluation.report,state:0
+#: view:hr_evaluation.evaluation:hr_evaluation.evaluation_search
+#: field:hr_evaluation.evaluation,state:0
+msgid "Status"
+msgstr "状态"
+
+#. module: hr_evaluation
+#: field:hr_evaluation.plan.phase,email_subject:0
+#: model:survey.question,question:hr_evaluation.appraisal_3_1
+msgid "Subject"
+msgstr "主题"
+
+#. module: hr_evaluation
+#: field:hr.evaluation.interview,message_summary:0
+#: field:hr_evaluation.evaluation,message_summary:0
+msgid "Summary"
+msgstr "摘要"
+
+#. module: hr_evaluation
+#: model:survey.question,question:hr_evaluation.appraisal_3_2
+msgid "Supervisors only"
+msgstr "仅主管"
+
+#. module: hr_evaluation
+#: view:hr.evaluation.interview:hr_evaluation.view_hr_evaluation_interview_search
+msgid "Survey"
+msgstr "问卷"
+
+#. module: hr_evaluation
+#: field:hr.evaluation.interview,request_id:0
+msgid "Survey Request"
+msgstr "调查请求"
+
+#. module: hr_evaluation
+#: model:survey.label,value:hr_evaluation.oprow_2_1_4
+msgid ""
+"Taking everything into account, how satisfied are you with your current job?"
+msgstr "各种因素都考虑进去，您对现在的工作满意度是多少？"
+
+#. module: hr_evaluation
+#: model:survey.label,value:hr_evaluation.arow_3_1_4
+msgid ""
+"Team spirit: ability to work efficiently with peers, manage the conflicts "
+"with diplomacy"
+msgstr "团队精神：与同行进行有效工作的能力，以外交方式管理冲突"
+
+#. module: hr_evaluation
+#: model:survey.label,value:hr_evaluation.arow_3_1_10
+msgid "Technical skills regarding to the job requirements"
+msgstr "工作要求的技术技能"
+
+#. module: hr_evaluation
+#: model:survey.question,validation_error_msg:hr_evaluation.appraisal_1_1
+#: model:survey.question,validation_error_msg:hr_evaluation.appraisal_1_2
+#: model:survey.question,validation_error_msg:hr_evaluation.appraisal_1_3
+#: model:survey.question,validation_error_msg:hr_evaluation.appraisal_1_4
+#: model:survey.question,validation_error_msg:hr_evaluation.appraisal_1_5
+#: model:survey.question,validation_error_msg:hr_evaluation.appraisal_2_1
+#: model:survey.question,validation_error_msg:hr_evaluation.appraisal_2_2
+#: model:survey.question,validation_error_msg:hr_evaluation.appraisal_2_3
+#: model:survey.question,validation_error_msg:hr_evaluation.appraisal_3_1
+#: model:survey.question,validation_error_msg:hr_evaluation.appraisal_3_2
+#: model:survey.question,validation_error_msg:hr_evaluation.appraisal_4_1
+#: model:survey.question,validation_error_msg:hr_evaluation.appraisal_4_2
+#: model:survey.question,validation_error_msg:hr_evaluation.appraisal_4_3
+#: model:survey.question,validation_error_msg:hr_evaluation.appraisal_5_1
+#: model:survey.question,validation_error_msg:hr_evaluation.opinion_1_1
+#: model:survey.question,validation_error_msg:hr_evaluation.opinion_1_2
+#: model:survey.question,validation_error_msg:hr_evaluation.opinion_2_1
+#: model:survey.question,validation_error_msg:hr_evaluation.opinion_2_2
+#: model:survey.question,validation_error_msg:hr_evaluation.opinion_2_3
+#: model:survey.question,validation_error_msg:hr_evaluation.opinion_2_4
+#: model:survey.question,validation_error_msg:hr_evaluation.opinion_2_5
+#: model:survey.question,validation_error_msg:hr_evaluation.opinion_2_6
+#: model:survey.question,validation_error_msg:hr_evaluation.opinion_2_7
+msgid "The answer you entered has an invalid format."
+msgstr "您输入的答案的格式无效。"
+
+#. module: hr_evaluation
+#: help:hr.employee,evaluation_date:0
+msgid ""
+"The date of the next appraisal is computed by the appraisal plan's dates "
+"(first appraisal + periodicity)."
+msgstr "下次评估的日期是按评估计划的日期计算出来的 （首次评估 + 周期）"
+
+#. module: hr_evaluation
+#: help:hr_evaluation.plan,month_next:0
+msgid ""
+"The number of month that depicts the delay between each evaluation of this "
+"plan (after the first one)."
+msgstr "这个月份数字描述了计划中每次考评的间距（首次之后）"
+
+#. module: hr_evaluation
+#: help:hr_evaluation.evaluation,rating:0
+msgid "This is the appreciation on which the evaluation is summarized."
+msgstr "这是评估总结的评价"
+
+#. module: hr_evaluation
+#: help:hr_evaluation.plan,month_first:0
+msgid ""
+"This number of months will be used to schedule the first evaluation date of "
+"the employee when selecting an evaluation plan. "
+msgstr "这个月份将在选择的考评计划里对员工进行首次考评。 "
+
+#. module: hr_evaluation
+#: model:survey.question,constr_error_msg:hr_evaluation.appraisal_1_1
+#: model:survey.question,constr_error_msg:hr_evaluation.appraisal_1_2
+#: model:survey.question,constr_error_msg:hr_evaluation.appraisal_1_3
+#: model:survey.question,constr_error_msg:hr_evaluation.appraisal_1_4
+#: model:survey.question,constr_error_msg:hr_evaluation.appraisal_1_5
+#: model:survey.question,constr_error_msg:hr_evaluation.appraisal_2_1
+#: model:survey.question,constr_error_msg:hr_evaluation.appraisal_2_2
+#: model:survey.question,constr_error_msg:hr_evaluation.appraisal_2_3
+#: model:survey.question,constr_error_msg:hr_evaluation.appraisal_3_1
+#: model:survey.question,constr_error_msg:hr_evaluation.appraisal_3_2
+#: model:survey.question,constr_error_msg:hr_evaluation.appraisal_4_1
+#: model:survey.question,constr_error_msg:hr_evaluation.appraisal_4_2
+#: model:survey.question,constr_error_msg:hr_evaluation.appraisal_4_3
+#: model:survey.question,constr_error_msg:hr_evaluation.appraisal_5_1
+#: model:survey.question,constr_error_msg:hr_evaluation.opinion_1_1
+#: model:survey.question,constr_error_msg:hr_evaluation.opinion_1_2
+#: model:survey.question,constr_error_msg:hr_evaluation.opinion_2_1
+#: model:survey.question,constr_error_msg:hr_evaluation.opinion_2_2
+#: model:survey.question,constr_error_msg:hr_evaluation.opinion_2_3
+#: model:survey.question,constr_error_msg:hr_evaluation.opinion_2_4
+#: model:survey.question,constr_error_msg:hr_evaluation.opinion_2_5
+#: model:survey.question,constr_error_msg:hr_evaluation.opinion_2_6
+#: model:survey.question,constr_error_msg:hr_evaluation.opinion_2_7
+msgid "This question requires an answer."
+msgstr "此问题是必答的。"
+
+#. module: hr_evaluation
+#: model:survey.label,value:hr_evaluation.arow_3_1_15
+msgid "Time management: projects/tasks are completed on time"
+msgstr "时间管理：按时完成项目/任务"
+
+#. module: hr_evaluation
+#: view:hr.evaluation.interview:hr_evaluation.view_hr_evaluation_interview_search
+msgid "To Do"
+msgstr "待处理"
+
+#. module: hr_evaluation
+#: selection:hr_evaluation.plan.phase,action:0
+msgid "Top-Down Appraisal Requests"
+msgstr "自上而下的评估申请"
+
+#. module: hr_evaluation
+#: field:hr.evaluation.interview,message_unread:0
+#: field:hr_evaluation.evaluation,message_unread:0
+msgid "Unread Messages"
+msgstr "未读信息"
+
+#. module: hr_evaluation
+#: model:survey.question,question:hr_evaluation.appraisal_5_1
+msgid ""
+"Use the following space to make any comments regarding the above performance "
+"evaluation."
+msgstr "使用下面的空间，评论上述绩效评价。"
+
+#. module: hr_evaluation
+#: view:hr_evaluation.evaluation:hr_evaluation.view_hr_evaluation_form
+msgid "Validate Appraisal"
+msgstr "确认评估"
+
+#. module: hr_evaluation
+#: field:hr_evaluation.plan.phase,wait:0
+msgid "Wait Previous Phases"
+msgstr "等待前面的阶段"
+
+#. module: hr_evaluation
+#: selection:hr_evaluation.evaluation,state:0
+msgid "Waiting Appreciation"
+msgstr "等待考评"
+
+#. module: hr_evaluation
+#: code:addons/hr_evaluation/hr_evaluation.py:239
+#: code:addons/hr_evaluation/hr_evaluation.py:339
+#, python-format
+msgid "Warning!"
+msgstr "警告！"
+
+#. module: hr_evaluation
+#: field:hr.evaluation.interview,website_message_ids:0
+#: field:hr_evaluation.evaluation,website_message_ids:0
+msgid "Website Messages"
+msgstr "网站消息"
+
+#. module: hr_evaluation
+#: help:hr.evaluation.interview,website_message_ids:0
+#: help:hr_evaluation.evaluation,website_message_ids:0
+msgid "Website communication history"
+msgstr "网站沟通记录"
+
+#. module: hr_evaluation
+#: model:survey.label,value:hr_evaluation.oprow_2_4_2
+msgid ""
+"What I did several months ago is still of use to the company, the services "
+"or the products today"
+msgstr "几个月以来，我做了什么对企业、服务或产品来说是有用的"
+
+#. module: hr_evaluation
+#: model:survey.page,title:hr_evaluation.appraisal_2
+msgid "Work Plan"
+msgstr "工作计划"
+
+#. module: hr_evaluation
+#: code:addons/hr_evaluation/hr_evaluation.py:239
+#, python-format
+msgid ""
+"You cannot change state, because some appraisal forms have not been "
+"completed."
+msgstr "您不能改变状态，因为一些评估表尚未完成。"
+
+#. module: hr_evaluation
+#: code:addons/hr_evaluation/hr_evaluation.py:339
+#, python-format
+msgid "You cannot start evaluation without Appraisal."
+msgstr "没有评估计划无法开始评估"
+
+#~ msgid "closed"
+#~ msgstr "已结束"
+
+#~ msgid "Request_id"
+#~ msgstr "要求ID"
+
+#~ msgid "Creation Date"
+#~ msgstr "创建日期"
